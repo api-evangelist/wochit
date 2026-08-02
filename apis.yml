@@ -1,7 +1,28 @@
 aid: wochit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wochit.png
 name: Wochit
-description: Wochit is a company surfaced as a portfolio company of redpoint-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Wochit is an enterprise-grade, cloud-based video creation platform that helps
+  organizations produce professional, on-brand videos at scale. It offers three
+  products: Studio, an AI-powered video creation workspace paired with one of
+  the world's largest licensed content libraries; Frame, a white-label,
+  embeddable video editor that SaaS platforms and marketplaces integrate into
+  their own products; and WAVE, an automated video engine that mass-produces
+  videos from templates and data. Wochit serves media companies, publishers,
+  nonprofits, and enterprises that need repeatable, high-volume video
+  production. Wochit does not currently publish a public developer API or
+  developer portal; this profile captures its identity and security posture.
 url: https://raw.githubusercontent.com/api-evangelist/wochit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Video
+- Video Creation
+- Media
+- Content Creation
+- White Label
+- SaaS
+- Enterprise
+- AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: http://www.wochit.com/
+- type: Pricing
+  url: https://www.wochit.com/pricing/
+- type: SignUp
+  url: https://login.wochit.com/frame/signup
+- type: PrivacyPolicy
+  url: https://www.wochit.com/privacy/
+- type: TermsOfService
+  url: https://www.wochit.com/terms-and-conditions/
+- type: Support
+  url: https://www.wochit.com/contact/
+- type: Blog
+  url: https://www.wochit.com/blog/
+- type: Compliance
+  url: https://www.wochit.com/security/
+- type: TrustCenter
+  url: security/wochit-trust-center.yml
+- type: DomainSecurity
+  url: security/wochit-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

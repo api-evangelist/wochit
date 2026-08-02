@@ -1,0 +1,21 @@
+{
+  "repo": "wochit",
+  "feeds": [
+    {
+      "source": "https://www.wochit.com/feed/",
+      "feed_url": "https://www.wochit.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.wochit.com/contact/",
+      "feed_url": "https://www.wochit.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-08-01T15:49:00Z"
+}
