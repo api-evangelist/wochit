@@ -1,0 +1,127 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.wochit.com/pricing/
+sources:
+- https://www.wochit.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Three product lines (Studio, Frame, WAVE) with monthly and annual-upfront (save 33%) pricing; usage
+  add-ons per seat, per active user, or per video. API access to WAVE listed as a feature.
+plan_count: 15
+currency: USD
+plans:
+- name: Studio Basic
+  price_text: $1,499
+  price: 1499
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: 3 seats included
+  overage: $99/mo per additional seat
+- name: Studio Basic (annual, pay upfront)
+  price_text: $999 /mo
+  price: 999
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Billed at $11,988/yr; 3 seats included
+  overage: $66/mo per additional seat
+- name: Studio Enterprise
+  price_text: Contact us
+  period: none
+- name: Frame Small
+  price_text: $1,799
+  price: 1799
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Up to 1,350 active users per month
+  overage: Plus $3.90/mo per active user
+- name: Frame Small (annual, pay upfront)
+  price_text: $1,199 /mo
+  price: 1199
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Billed at $14,388/yr
+  overage: Plus $3.90/mo per active user
+- name: Frame Standard
+  price_text: $5,849
+  price: 5849
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: 1,350–7,750 active users per month
+  overage: Plus $1.90/mo per active user
+- name: Frame Standard (annual, pay upfront)
+  price_text: $3,899 /mo
+  price: 3899
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Billed at $46,788/yr
+  overage: Plus $1.90/mo per active user
+- name: Frame Enterprise
+  price_text: Contact us
+  period: none
+- name: WAVE Basic
+  price_text: $2,099
+  price: 2099
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Up to 2,000 videos per month
+  overage: Plus $1 per video
+- name: WAVE Basic (annual, pay upfront)
+  price_text: $1,399 /mo
+  price: 1399
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Billed at $16,788/yr
+  overage: Plus $1 per video
+- name: WAVE Small
+  price_text: $3,099
+  price: 3099
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Up to 4,000 videos per month
+  overage: Plus $0.50 per video
+- name: WAVE Small (annual, pay upfront)
+  price_text: $1,999 /mo
+  price: 1999
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Billed at $23,988/yr
+  overage: Plus $0.50 per video
+- name: WAVE Standard
+  price_text: $4,099
+  price: 4099
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Up to 9,000 videos per month
+  overage: Plus $0.25 per video
+- name: WAVE Standard (annual, pay upfront)
+  price_text: $2,799 /mo
+  price: 2799
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Billed at $33,588/yr
+  overage: Plus $0.25 per video
+- name: WAVE Enterprise
+  price_text: Contact us
+  period: none
