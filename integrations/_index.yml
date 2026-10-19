@@ -28,3 +28,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: wochit-brightcove-own
+  label: Brightcove (own)
+  partner: brightcove
+  partner_name: Brightcove (own)
+  category: Video Enrichment & Enhancement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.brightcove.com/partners/wochit-video-editor
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null

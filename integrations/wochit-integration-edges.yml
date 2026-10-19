@@ -2,6 +2,7 @@ generated: '2026-10-13'
 method: searched
 checked:
 - https://aws.amazon.com/marketplace/
+- https://marketplace.brightcove.com/llms.txt
 - okta/integrations/okta-integration-edges.yml
 marketplace_apps: []
 edges:
@@ -43,5 +44,22 @@ edges:
   - OKTA_VERIFIED
   features:
   - SAML
+- partner_name: Brightcove (own)
+  partner: brightcove
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.brightcove.com/partners/wochit-video-editor
+  mirror_of: brightcove/integrations/brightcove-integration-edges.yml
+  apps:
+  - Wochit Video Editor
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Video Enrichment & Enhancement
 source:
 - okta/integrations/okta-integration-edges.yml
